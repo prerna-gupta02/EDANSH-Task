@@ -1,0 +1,248 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    height: 53px;
+    background: #FFFFFF;
+}
+.navbar .logo{
+    position: absolute;
+    height: 24px;
+    width: 135.73px;
+    left: 42px;
+    top: 14px;
+    border-radius: 0px;
+}
+.navbar .login,
+.navbar .signup{
+    position: absolute;
+    height: 30px;
+    width: 68.84px;
+    top: 12px;
+    border-radius: 3.14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4.7093px 17.2674px;
+    font-family: Hind Vadodara;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9.2px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+}
+.navbar .signup{
+    right: 85.16px;
+    background: #0A2540;
+    color: #FFFFFF;
+}
+.navbar .login{
+    right: 185.24px;
+    color: #0A2540;
+    background: #FFFFFF;
+}
+.mentor-container{
+    height: 100%;
+    padding: 66px 114px;
+    background: #FAFBFC;;
+}
+.mentor-container .heading .circle{
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    left: 168px;
+    top: 119px;
+    border: 1px solid #223345;
+    border-radius: 50%;
+    box-sizing: border-box;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    background: transparent;
+}
+.mentor-container .symbol i{
+    position: absolute;
+    top: 122px;
+    left: 178px;
+    font-size: 28px;
+    font-weight: 900;
+}
+.mentor-container .heading h1{
+    position: absolute;
+    width: 313px;
+    height: 36px;
+    left: 257px;
+    top: 125px;
+    font-family: Hind Vadodara;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #223345;
+}
+.mentor-container .search-box .form-control{
+    padding-left: 2.375em;
+}
+.mentor-container .search-box .form-control-feedback{
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375em;
+    height: 2.375em;
+    line-height: 2.375em;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+.mentor-container .search-box .form-control{
+    /* position: absolute; */
+    width: 402px;
+    height: 41.67px;
+    margin-top: 80px;
+    margin-left: 125px;
+    background: #EDEDED;
+    border-radius: 19.51px;
+    border: none;
+}
+.mentor-container .search-box .form-control-feedback{
+    /* position: absolute; */
+    margin-top: 80px;
+    margin-left: 140px;
+    margin-right:50px;
+    color: #223345;
+}
+.mentor-container .search-box input::placeholder{
+    position: absolute;
+    left: 70px;
+    top: 14px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    color: #223345;
+}
+.mentor-container .select-boxes{
+    margin-top: 80px;
+    margin-right: 110px;
+}
+.mentor-container .select-boxes .box{
+    width: 113.56px;
+    height: 41.67px;
+    border: 0.683071px solid #929292;
+    box-sizing: border-box;
+    border-radius: 33.8188px;
+    background: transparent;
+    margin: 0 10px;
+}
+.mentor-container .custom-select{
+    position: relative;
+}
+.mentor-container .custom-select::before{
+    color: #223345;
+    display: block;
+    font-size: 1em;
+    height: 100%;
+    line-height: 2.5em;
+    padding: 0 0.625em;
+    position: absolute;
+    top: 3px;
+    right: 30px;
+    text-align: center;
+    width: 1em;
+}
+.mentor-container .select-boxes .box option{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    color: #223345;
+    text-align: center;
+}
+.mentor-container .card-container{
+    margin: 30px 50px;
+    padding: 0 120px;
+}
+.card {
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+    border: 1;
+    border-radius: 1rem;
+    width: 272.51px;
+    height: 328.27px;
+    margin: 20px 0;
+}
+
+.card img {
+    border-radius: 50%;
+    width: 150px;
+    height: auto;
+    margin-top: 20px;
+    padding: 1px;
+    transition: transform .5s;
+}
+.card .card-body h1{
+    font-family: Hind Vadodara;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20.9086px;
+    line-height: 31px;
+}
+.card h2{
+    font-family: Hind Vadodara;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12.5452px;
+    line-height: 19px;
+    color: #0C7DD9;
+}
+.card p{
+    font-family: Hind Vadodara;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11.1513px;
+    line-height: 17px;
+    color: #223345;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    body{
+        overflow-x: hidden;
+    }
+    .mentor-container .heading,
+    .mentor-container .search-box{
+        display: none;
+    }
+    .mentor-container .select-boxes{
+        visibility: hidden;
+    }
+    .mentor-container .card-container{
+        margin: 30px -60px;
+        padding: 0;
+    }
+}
+@media screen and (max-width: 380px) {
+    .mentor-container .card-container{
+        margin: 30px -85px;
+        padding: 0;
+    }
+}
+@media screen and (max-width: 320px) {
+    .mentor-container .card-container{
+        margin: 30px -115px;
+        padding: 0;
+    }
+}
